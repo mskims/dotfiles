@@ -114,3 +114,6 @@ eval "$(thefuck --alias)"
 
 # Syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# kraken alias
+alias kraken="open -a 'GitKraken' --args -p $(pwd)"
